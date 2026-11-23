@@ -22,6 +22,7 @@ import com.nicolascarmona.mytrainingapp.ui.screens.HomeScreen
 import com.nicolascarmona.mytrainingapp.data.RutinasRepo
 import com.nicolascarmona.mytrainingapp.ui.screens.WeekScreen
 import com.nicolascarmona.mytrainingapp.ui.theme.AppGradientBackground
+import androidx.compose.foundation.layout.safeDrawingPadding
 
 @Composable
 fun AppNavigation(navController: NavHostController, modifier: Modifier) {
@@ -47,6 +48,7 @@ fun AppNavigation(navController: NavHostController, modifier: Modifier) {
             modifier = Modifier
                 .fillMaxSize()
                 .background(AppGradientBackground)
+                .safeDrawingPadding()
         ) {
 
             composable("home") {
