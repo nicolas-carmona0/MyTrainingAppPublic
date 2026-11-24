@@ -1,8 +1,8 @@
-💪 MyTrainingApp
+# 💪 MyTrainingApp
 
 MyTrainingApp es una aplicación nativa para Android desarrollada en Kotlin y Jetpack Compose diseñada para organizar rutinas de entrenamiento de fuerza y core por semanas y días, visualizar la técnica de cada ejercicio mediante animaciones locales y registrar el historial de cargas, series, repeticiones y tiempos.
 
-✨ Características principales
+## ✨ Características principales
 
 Planificación estructurada por semanas y días: Organización en ciclos de dos semanas (Semana 1 y Semana 2) divididos en 4 sesiones específicas:
 
@@ -38,7 +38,7 @@ Asincronía y Estado: Kotlin Coroutines & StateFlow (collectAsState)
 
 Carga de Imágenes y GIFs: Coil (coil-compose y coil-gif con soporte para ImageDecoderDecoder y GifDecoder)
 
-📁 Estructura del Proyecto
+## 📁 Estructura del Proyecto
 
 com.nicolascarmona.mytrainingapp
 ├── data/
@@ -52,7 +52,7 @@ com.nicolascarmona.mytrainingapp
     └── viewmodels/    # HistorialViewModel (gestión de estado y consultas a Room)
 
 
-📄 Créditos y Atribuciones
+## 📄 Créditos y Atribuciones
 
 Iconos de grupos musculares: Diseñados por cube29 a través de Flaticon bajo licencia gratuita con atribución.
 
