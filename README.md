@@ -22,7 +22,7 @@ Historial de progreso persistente: Almacenamiento local estructurado en Room que
 
 Interfaz adaptativa y segura: Diseño responsivo con soporte de desplazamiento vertical (verticalScroll), márgenes adaptados a recortes de cámara y barras del sistema (safeDrawingPadding), y conservación de estado ante rotación de pantalla (rememberSaveable).
 
-🛠️ Stack Tecnológico y Arquitectura
+## 🛠️ Stack Tecnológico y Arquitectura
 
 El proyecto sigue las recomendaciones modernas de desarrollo en Android bajo el patrón arquitectónico MVVM (Model-View-ViewModel) y flujo de datos reactivo:
 
